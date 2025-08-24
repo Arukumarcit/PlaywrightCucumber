@@ -3,7 +3,7 @@ import { chromium } from "@playwright/test";
 import { CustomWorld } from "./CustomWorld";
 
 Before(async function (this:CustomWorld) {
-this.browser= await chromium.launch({channel:'msedge',headless:false})
+this.browser= await chromium.launch({channel:'msedge',headless:true})
  this.page = await this.browser.newPage();
      
 })
