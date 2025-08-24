@@ -29,7 +29,7 @@ jobs:
 
         # ✅ Step 1: Run only login test first
       - name: Run BDD Tests
-        run:  npm test
+        run:  npm run test
 
       - name: Install Allure CLI
         run: npm install -g allure-commandline --save-dev
