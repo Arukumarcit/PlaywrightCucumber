@@ -9,7 +9,6 @@ Then Click Login to the application
 Examples:
 |userName | Password |URL|
 |SenthilSmartQAHub | demo|https://playwrightautomationtesting.blogspot.com/2025/06/banking-application.html|
-|DebitUser | demo|https://playwrightautomationtesting.blogspot.com/2025/06/banking-application.html|
-|CreditUser | demo|https://playwrightautomationtesting.blogspot.com/2025/06/banking-application.html|
+
 
 

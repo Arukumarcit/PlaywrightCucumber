@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 828313999
+              "duration": 874511100
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2934566400
+              "duration": 2735942300
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5100138100
+              "duration": 5099087599
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5070394200
+              "duration": 5062296899
             }
           },
           {
@@ -61,139 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 434258499
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "login-application;validate-the-user-able-to-login-the-application",
-        "keyword": "Scenario Outline",
-        "line": 12,
-        "name": "Validate the user able to login the application",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 644256499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "When user clicks on the Bank application \"https://playwrightautomationtesting.blogspot.com/2025/06/banking-application.html\"",
-            "match": {
-              "location": "src\\steps\\Login.ts:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2814194999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 5,
-            "name": "Then give the username as \"DebitUser\" and password as \"<password>\"",
-            "match": {
-              "location": "src\\steps\\Login.ts:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5139148000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 6,
-            "name": "Click Login to the application",
-            "match": {
-              "location": "src\\steps\\Login.ts:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5061890800
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 449046899
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "login-application;validate-the-user-able-to-login-the-application",
-        "keyword": "Scenario Outline",
-        "line": 13,
-        "name": "Validate the user able to login the application",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 596309700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "When user clicks on the Bank application \"https://playwrightautomationtesting.blogspot.com/2025/06/banking-application.html\"",
-            "match": {
-              "location": "src\\steps\\Login.ts:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3416746400
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 5,
-            "name": "Then give the username as \"CreditUser\" and password as \"<password>\"",
-            "match": {
-              "location": "src\\steps\\Login.ts:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5083786599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 6,
-            "name": "Click Login to the application",
-            "match": {
-              "location": "src\\steps\\Login.ts:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5052020400
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 362580900
+              "duration": 870919500
             }
           }
         ],
